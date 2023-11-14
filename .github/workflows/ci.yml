@@ -20,7 +20,6 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         RELEASE_BRANCHES: main
-        DRY_RUN: true
         INITIAL_VERSION: 1.0.1
     
     outputs:
@@ -38,6 +37,7 @@ jobs:
       with:
         dotnet-version: 7.0.x
         source-url: https://nuget.pkg.github.com/${{github.repository_owner}}/index.json
+        config-file: nuget.config
       env:
         NUGET_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         VERSION: ${{ steps.tab_bump.outputs.new_tag }}
@@ -55,4 +55,4 @@ jobs:
           -o packages
 
     - name: Publish
-      run: dotnet nuget push packages/*.nupkg
+      run: dotnet nuget push packages/*.nupkg --api-key ${{ secrets.GITHUB_TOKEN }} --source "https://nuget.pkg.github.com/${{ github.repository_owner }}"
