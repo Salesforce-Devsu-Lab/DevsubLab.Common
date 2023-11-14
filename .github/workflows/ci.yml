@@ -18,7 +18,7 @@ jobs:
       id: tab_bump
       uses: anothrNick/github-tag-action@1.67.0
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.YOUR_PAT_SECRET }}
         RELEASE_BRANCHES: main
         INITIAL_VERSION: 1.0.1
         DEFAULT_BUMP: patch
@@ -41,7 +41,7 @@ jobs:
         source-url: https://nuget.pkg.github.com/${{github.repository_owner}}/index.json
         config-file: nuget.config
       env:
-        NUGET_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        NUGET_AUTH_TOKEN: ${{ secrets.YOUR_PAT_SECRET }}
         VERSION: ${{ needs.generate-version.outputs.new_version }}
         
     - name: Pack
