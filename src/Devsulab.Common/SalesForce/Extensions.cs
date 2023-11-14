@@ -2,6 +2,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Devsulab.Common.Settings;
 using NetCoreForce.Client;
+using System;
 
 namespace Devsulab.Common.SalesForce
 {
@@ -17,7 +18,7 @@ namespace Devsulab.Common.SalesForce
                 
                 if (salesForceSettings == null)
                 {
-                    throw new InvalidOperationException("SalesForceSettings not configured properly.");
+                    throw new ArgumentException("SalesForceSettings not configured properly.");
                 }
                 
                 AuthenticationClient auth = new AuthenticationClient();

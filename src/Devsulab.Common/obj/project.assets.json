@@ -455,7 +455,8 @@
         "net7.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.pkg.github.com/Salesforce-Devsu-Lab/index.json": {}
       },
       "frameworks": {
         "net7.0": {

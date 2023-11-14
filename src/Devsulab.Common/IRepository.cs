@@ -1,3 +1,6 @@
+using System;
+using System.Threading.Tasks;
+
 namespace Devsulab.Common
 {
     public interface IRepository<T> where T : IEntity

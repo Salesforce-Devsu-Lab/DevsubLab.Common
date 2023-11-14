@@ -1,4 +1,6 @@
-﻿namespace Devsulab.Common
+﻿using System;
+
+namespace Devsulab.Common
 {
     public interface IEntity
     {

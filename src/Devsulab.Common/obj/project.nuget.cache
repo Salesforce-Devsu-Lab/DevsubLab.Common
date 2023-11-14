@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "W6cQ0Be7wKSqKWVF0tDYVD71RBfIaHen+jtRXk6mJwuakOr2H5Bl9pzcqQK3bJtGaw+hBAcB8EaaNXJkvY80TA==",
+  "dgSpecHash": "5QNQheyPUjv2ATeqLS9sdN29drdRI5NQo1WVhX/IFvlX/PYL81d+C+Kd2lsWzWFZ3rzNSO8SzWFHbL5pbh7X7A==",
   "success": true,
   "projectFilePath": "/Users/felixperezabreu/Documents/salesforce-devsu-lab/devsulab.common/src/Devsulab.Common/Devsulab.Common.csproj",
   "expectedPackageFiles": [
