@@ -22,6 +22,8 @@ public static class AccountFunction
 
         response.WriteString("Adding new Message: New version now! v.1.0.3.");
         
+        response.WriteString("Adding new Message: New version now! v.1.0.4.");
+        
         return response;
         
     }
