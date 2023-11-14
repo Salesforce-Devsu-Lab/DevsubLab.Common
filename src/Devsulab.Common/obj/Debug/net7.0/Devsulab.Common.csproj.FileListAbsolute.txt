@@ -1,0 +1,12 @@
+/Users/felixperezabreu/Documents/salesforce-devsu-lab/devsulab.common/src/Devsulab.Common/bin/Debug/net7.0/Devsulab.Common.deps.json
+/Users/felixperezabreu/Documents/salesforce-devsu-lab/devsulab.common/src/Devsulab.Common/bin/Debug/net7.0/Devsulab.Common.dll
+/Users/felixperezabreu/Documents/salesforce-devsu-lab/devsulab.common/src/Devsulab.Common/bin/Debug/net7.0/Devsulab.Common.pdb
+/Users/felixperezabreu/Documents/salesforce-devsu-lab/devsulab.common/src/Devsulab.Common/obj/Debug/net7.0/Devsulab.Common.csproj.AssemblyReference.cache
+/Users/felixperezabreu/Documents/salesforce-devsu-lab/devsulab.common/src/Devsulab.Common/obj/Debug/net7.0/Devsulab.Common.GeneratedMSBuildEditorConfig.editorconfig
+/Users/felixperezabreu/Documents/salesforce-devsu-lab/devsulab.common/src/Devsulab.Common/obj/Debug/net7.0/Devsulab.Common.AssemblyInfoInputs.cache
+/Users/felixperezabreu/Documents/salesforce-devsu-lab/devsulab.common/src/Devsulab.Common/obj/Debug/net7.0/Devsulab.Common.AssemblyInfo.cs
+/Users/felixperezabreu/Documents/salesforce-devsu-lab/devsulab.common/src/Devsulab.Common/obj/Debug/net7.0/Devsulab.Common.csproj.CoreCompileInputs.cache
+/Users/felixperezabreu/Documents/salesforce-devsu-lab/devsulab.common/src/Devsulab.Common/obj/Debug/net7.0/Devsulab.Common.dll
+/Users/felixperezabreu/Documents/salesforce-devsu-lab/devsulab.common/src/Devsulab.Common/obj/Debug/net7.0/refint/Devsulab.Common.dll
+/Users/felixperezabreu/Documents/salesforce-devsu-lab/devsulab.common/src/Devsulab.Common/obj/Debug/net7.0/Devsulab.Common.pdb
+/Users/felixperezabreu/Documents/salesforce-devsu-lab/devsulab.common/src/Devsulab.Common/obj/Debug/net7.0/ref/Devsulab.Common.dll
