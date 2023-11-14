@@ -43,7 +43,7 @@ jobs:
         VERSION: ${{ steps.tab_bump.outputs.new_tag }}
         
     - name: Pack
-        run: |
+      run: |
           if [ -z "${{ needs.generate-version.outputs.new_version }}" ]; then
             echo "PackageVersion is not set. Aborting..."
             exit 1
@@ -53,7 +53,6 @@ jobs:
           -p:PackageVersion=${{ needs.generate-version.outputs.new_version }} \
           -p:RepositoryUrl=https://github.com/${{github.repository_owner}}/DevsubLab.Common \
           -o packages
-
 
     - name: Publish
       run: dotnet nuget push packages/*.nupkg
