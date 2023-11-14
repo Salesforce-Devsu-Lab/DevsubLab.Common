@@ -15,7 +15,7 @@ dotnet nuget add source --username USERNAME --password $github_pat --store-passw
 ## Create and publish package
 
 ```powershell
-dotnet pack src\Devsulab.Common\ --configuration Release -p:PackageVersion=$version -p:RepositoryUrl=https://github.com/$owner/devsulab.common -o ..\packages
+dotnet pack src/Devsulab.Common/ --configuration Release -p:PackageVersion=$version -p:RepositoryUrl=https://github.com/$owner/DevsubLab.Common -o ../../packages
 
 
 dotnet nuget push ../../packages/Devsulab.Common.$version.nupkg --api-key $github_pat --source "github"
