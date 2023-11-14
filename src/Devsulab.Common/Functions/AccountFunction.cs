@@ -20,7 +20,7 @@ public static class AccountFunction
 
         response.WriteString("Welcome to Azure Functions!");
 
-        response.WriteString("Adding new Message: New version now! v.1.0.2");
+        response.WriteString("Adding new Message: New version now! v.1.0.3.");
         
         return response;
         
