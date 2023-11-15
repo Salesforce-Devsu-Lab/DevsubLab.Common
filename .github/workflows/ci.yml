@@ -39,7 +39,7 @@ jobs:
   # Package and Publish Repo
   package-and-publish-repo:
     runs-on: ubuntu-latest
-    needs: ["generate-version"]
+    needs: ["generate-token", "generate-version"]
     steps:
     - uses: actions/checkout@v3
     - name: setup-dotnet
